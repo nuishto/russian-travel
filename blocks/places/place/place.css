@@ -1,0 +1,10 @@
+.place {
+max-width: 984px;
+width: calc(100% - 148*2);
+margin:0;
+padding: 0 0 80px 0;
+border: 1px solid #fff;
+display: grid;
+grid-template-columns: repeat(2, auto);
+grid-template-rows: repeat(2, auto);
+}

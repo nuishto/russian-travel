@@ -1,0 +1,6 @@
+.lead__image {
+width: 984px;
+margin:64px auto 0 auto;
+grid-column-start: 2;
+grid-column-end: 3;
+}

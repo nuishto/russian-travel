@@ -1,0 +1,12 @@
+.intro__title {
+margin: 0;
+width: 690px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 107%;
+color: #FFFFFF;
+grid-column-start: 2;
+grid-column-end: 3;
+}

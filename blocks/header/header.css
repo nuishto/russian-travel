@@ -1,0 +1,8 @@
+.header {
+    width: 1184px;
+    height: 52px;
+    border: 1px seashell solid;
+    margin: 28px 0 0 0;
+    display: grid;
+    grid-template-columns: 176px 1fr;
+}
