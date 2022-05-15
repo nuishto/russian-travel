@@ -1,7 +1,27 @@
 .lead {
     width: calc(100% - 148*2);
     max-width: 984px;
+    min-width: 320px;
     padding: 56px 0 0 0;
     margin: 0;
     border: 1px solid #fff;
 }
+
+
+@media screen and (max-width: 1023px) {
+    .lead {
+        width: calc(100% - 48*2);
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .lead {
+        width:100%;
+    }
+} 
+
+@media screen and (max-width: 319px) {
+    .lead {
+        width:100%;
+    }
+} 

@@ -1,11 +1,11 @@
-.place__website_link {
+.cover__subtitle {
+width: 360px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 122%;
-text-decoration-line: underline;
+text-align: center;
 color: #FFFFFF;
-margin: 0;
-padding: 0;
+text-decoration: none;
 }

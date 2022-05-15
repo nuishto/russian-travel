@@ -8,6 +8,26 @@ font-size: 96px;
 line-height: 104%;
 text-align: center;
 color: #FFFFFF;
-grid-column-start: 2;
-grid-column-end: 3;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        font-size: 96px;
+        line-height: 104%;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        font-size: 96px;
+        line-height: 104%;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 110%;
+    }
+} 

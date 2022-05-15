@@ -7,6 +7,11 @@ font-weight: 900;
 font-size: 54px;
 line-height: 107%;
 color: #FFFFFF;
-grid-column-start: 2;
-grid-column-end: 3;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 109%;  
+    }
+} 

@@ -1,0 +1,12 @@
+.cover__link {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    max-height: 740px;
+    background-image: url(//images/cover__image.png);
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

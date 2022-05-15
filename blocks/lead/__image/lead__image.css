@@ -1,6 +1,22 @@
 .lead__image {
 width: 984px;
 margin:64px auto 0 auto;
-grid-column-start: 2;
-grid-column-end: 3;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        width: 320px;
+    }
+} 
