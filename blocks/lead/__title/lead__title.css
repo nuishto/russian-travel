@@ -29,5 +29,6 @@ color: #FFFFFF;
     .lead__title {
         font-size: 40px;
         line-height: 110%;
+        width: 288px;
     }
 } 

@@ -14,5 +14,6 @@ color: #FFFFFF;
     .lead__subtitle {
         font-size: 16px;
         line-height: 125%;
+        width: 288px;
     }
 } 
