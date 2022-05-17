@@ -38,20 +38,20 @@
     }
 } 
 
-@media screen and (max-width: 1023) {
+@media screen and (max-width: 1023px) {
     .cover__link {
-        min-height: 300px;
+        min-height: 500px;
     }
 } 
 
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
     .cover__link {
-        min-height: 200px;
+        min-height: 400px;
     }
 } 
 
-@media screen and (max-width: 459px) {
+@media screen and (max-width: 600px) {
     .cover__link {
-        min-height: 180px;
+        min-height: 280px;
     }
 } 
