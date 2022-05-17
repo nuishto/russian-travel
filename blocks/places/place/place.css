@@ -3,30 +3,34 @@ max-width: 984px;
 width: 100%;
 margin:0;
 padding: 0 0 80px 0;
-border: 1px solid #fff;
 display: grid;
 gap: 48px 40px;
-grid-template-columns: repeat(2, 460px);
+grid-template-columns: 460px 1fr;
 }
 
+.place:last-child {
+    padding: 0; 
+}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place {
+        max-width: 928px;
         gap: 48px 32px;
-        grid-template-columns: repeat(2, 440px);
+        grid-template-columns: 440px 1fr;
     }
 } 
 
-@media screen and (max-width: 768px) {
-    .place {
+@media screen and (max-width: 767px) {
+        .place {
+        max-width: 720px;
         gap: 48px 28px;
-        grid-template-columns: repeat(2, 340px);
+        grid-template-columns: 340px 1fr;
     }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .place {
         gap: 32px 32px;
-        grid-template-columns: repeat(1, 320px);
+        grid-template-columns: 1fr;
     }
 } 

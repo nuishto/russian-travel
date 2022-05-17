@@ -8,3 +8,9 @@ letter-spacing: 2px;
 color: #AAAAAA;
 margin: 0 0 12px 0;
 }
+
+@media screen and (max-width: 600px) {
+    .place__website_url-heading {
+        padding-left:16px;
+    }
+} 

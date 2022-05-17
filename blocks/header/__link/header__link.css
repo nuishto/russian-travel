@@ -9,7 +9,7 @@
     color:#fff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 459px) {
     .header__link {
         font-size: 18px;
         line-height: 111%;

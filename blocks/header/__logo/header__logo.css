@@ -4,19 +4,25 @@
     margin: 0 0 0 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .header__logo {
         margin: 0 0 0 48px;
     }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023) {
     .header__logo {
         margin: 0 0 0 24px;
     }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767) {
+    .header__logo {
+        margin: 0 0 0 24px;
+    }
+} 
+
+@media screen and (max-width: 459px) {
     .header__logo {
         margin: 0 0 0 16px;
         width: 142px;
