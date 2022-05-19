@@ -9,9 +9,9 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .intro__title {
-        max-width: 672px; 
+        max-width: 720px; 
     }
 } 
 

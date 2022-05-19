@@ -3,4 +3,5 @@
     margin: 4px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
